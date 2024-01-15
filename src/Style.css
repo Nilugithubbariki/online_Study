@@ -155,6 +155,9 @@ body {
     margin-left: 27px;
     width: 907px;
   }
+  .inputStyle {
+    width: 45px;
+  }
   .leftContent {
     margin-left: -352px;
   }
