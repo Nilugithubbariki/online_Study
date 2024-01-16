@@ -39,7 +39,11 @@ const Featured = () => {
           return (
             <div className="childDivStyle">
               <img className="ProductimageStyle" src={item.src} alt="" />
-              <div style={{ display: "flex", alignItems: "center" }}>
+              <div  style={{
+                  display: "flex",
+                  alignItems: "center",
+                  paddingLeft: "10px",
+                }}>
                 <div>
                   <Avatar src="/broken-image.jpg" />
                 </div>
@@ -49,17 +53,21 @@ const Featured = () => {
                   {item.instructor}
                 </div>
               </div>
-              <h5>{item.title}</h5>
+              <h5 style={{ paddingLeft: "10px", marginTop: "11px" }}>{item.title}</h5>
               <div className="borderStyle"></div>
               <div className="style">
-                <div>
+                <div  style={{
+                    paddingLeft: "10px",
+                    marginTop: "15px",
+                    marginLeft: "-6px",
+                  }}>
                   <StarIcon className="starStyle" />
                   <StarIcon className="starStyle" />
                   <StarIcon className="starStyle" />
                   <StarIcon className="starStyle" />
                   <StarIcon className="starStyle" />
                 </div>
-                <div>
+                <div style={{ marginTop: "-26px" }}>
                   <button className="buyStyle">Buy Now</button>
                 </div>
               </div>
