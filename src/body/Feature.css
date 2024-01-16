@@ -57,6 +57,10 @@
 body {
   margin: 0px;
 }
+.borderStyle {
+  border-bottom: 1px solid #d8cece;
+  margin-top: -16px;
+}
 .buyStyle {
   margin-left: 128px;
   margin-top: -53px;
