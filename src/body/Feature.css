@@ -57,6 +57,14 @@
 body {
   margin: 0px;
 }
+.buyStyle {
+  margin-left: 128px;
+  margin-top: -53px;
+  border: 1px solid violet;
+  height: 29px;
+  border-radius: 16px;
+  background: white;
+}
 .featuredInc {
   text-align: center;
 }
