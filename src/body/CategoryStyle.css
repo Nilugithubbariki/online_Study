@@ -112,7 +112,7 @@ body {
     margin-left: 69px;
   }
   .ProductimageStyle {
-    width: 147px;
+    width: 178px;
   }
   .childDivStyle {
     border-radius: 5px;
@@ -132,5 +132,8 @@ body {
   }
   .mainContainerStyle {
     width: 1140px;
+  }
+   .ProductimageStyle {
+    width: 178px;
   }
 }
